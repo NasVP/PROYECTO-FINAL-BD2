@@ -1,0 +1,124 @@
+/* Fondo general */
+.gestionaringreso-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e8f5e9;
+  padding: 40px;
+}
+
+/* Tarjeta principal */
+.gestionaringreso-card {
+  background-color: #ffffff;
+  padding: 50px 60px;
+  border-radius: 20px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+  width: 450px;
+  text-align: center;
+  border-top: 6px solid #004d40;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Título */
+.gestionaringreso-card h2 {
+  color: #004d40;
+  font-size: 26px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #004d40;
+  padding-bottom: 8px;
+}
+
+/* Formulario */
+.gestionaringreso-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Etiquetas */
+.gestionaringreso-form label {
+  font-weight: bold;
+  color: #004d40;
+  text-align: left;
+}
+
+/* Campo de entrada */
+.gestionaringreso-form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.gestionaringreso-form input:focus {
+  border-color: #004d40;
+  box-shadow: 0 0 5px rgba(0, 77, 64, 0.4);
+  outline: none;
+}
+
+/* Botones */
+.botones {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.btn-generar,
+.btn-volver {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Estilo de los botones */
+.btn-generar {
+  background-color: #004d40;
+  color: #fff;
+}
+
+.btn-generar:hover {
+  background-color: #00695c;
+  transform: scale(1.05);
+}
+
+.btn-volver {
+  background-color: #c62828;
+  color: #fff;
+}
+
+.btn-volver:hover {
+  background-color: #b71c1c;
+  transform: scale(1.05);
+}
+
+.gestionaringreso-container *,
+.gestionaringreso-card * {
+  box-sizing: border-box !important;
+  font-family: "Segoe UI", sans-serif !important;
+}
+
+.gestionaringreso-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100vh !important;
+  background-color: #e8f5e9 !important;
+  padding: 40px !important;
+}
+
+.gestionaringreso-card {
+  background-color: #ffffff !important;
+  padding: 50px 60px !important;
+  border-radius: 20px !important;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25) !important;
+  width: 450px !important;
+  text-align: center !important;
+  border-top: 6px solid #004d40 !important;
+  transition: all 0.3s ease-in-out !important;
+}

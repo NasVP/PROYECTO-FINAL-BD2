@@ -1,0 +1,68 @@
+.informe-satisfaccion {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+
+.informe-satisfaccion h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #000;
+}
+
+.informe-satisfaccion .descripcion {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #000;
+}
+
+.promedio-general {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #000;
+}
+
+/* Reutiliza el estilo de tus tablas globales */
+.tabla-datos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  color: black;
+}
+
+.tabla-datos th,
+.tabla-datos td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+  color: black;
+}
+
+.tabla-datos th {
+  background-color: #e0e0e0;
+  color: black;
+  font-weight: bold;
+}
+
+.tabla-datos tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.volver-container {
+  margin-top: 20px;
+}
+
+.boton-volver {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.boton-volver:hover {
+  background-color: #c70000;
+}

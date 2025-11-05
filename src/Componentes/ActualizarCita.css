@@ -1,0 +1,110 @@
+.actualizar-cita-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.tabla-citas {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tabla-citas th,
+.tabla-citas td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.tabla-citas th {
+  background-color: #f4f4f4;
+}
+
+.form-actualizar {
+  margin-top: 30px;
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.form-grid label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-grid input,
+.form-grid select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.acciones {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.acciones button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.acciones button:hover {
+  background-color: #0056b3;
+}
+
+.boton-cancelar {
+  background-color: #dc3545;
+}
+
+.boton-cancelar:hover {
+  background-color: #a71d2a;
+}
+
+.btn-modificar {
+  background-color: #ffc107;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #000;
+}
+
+.btn-modificar:hover {
+  background-color: #e0a800;
+}
+
+.volver-centro {
+  margin-top: 30px;
+}
+
+.boton-volver {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.boton-volver:hover {
+  background-color: #545b62;
+}

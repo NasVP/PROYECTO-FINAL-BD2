@@ -1,0 +1,64 @@
+.cancelar-cita-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.tabla-citas {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tabla-citas th,
+.tabla-citas td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.tabla-citas th {
+  background-color: #f4f4f4;
+}
+
+.fila-seleccionada {
+  background-color: #ffe8e8;
+}
+
+.acciones {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.boton-cancelar {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.boton-cancelar:disabled {
+  background-color: #f5b7b1;
+  cursor: not-allowed;
+}
+
+.boton-cancelar:hover:not(:disabled) {
+  background-color: #a71d2a;
+}
+
+.boton-volver {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.boton-volver:hover {
+  background-color: #545b62;
+}

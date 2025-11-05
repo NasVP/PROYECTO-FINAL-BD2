@@ -1,0 +1,74 @@
+.form-container {
+    width: 480px;
+    background-color: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-form {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.formulario label {
+    font-weight: bold;
+    color: #34495e;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+}
+
+.formulario textarea {
+    height: 60px;
+}
+
+.botones-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.btn-agregar {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-agregar:hover {
+    background-color: #1e8449;
+}
+
+.btn-volver {
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-volver:hover {
+    background-color: #922b21;
+}

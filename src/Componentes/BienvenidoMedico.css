@@ -1,0 +1,49 @@
+/* Estilo para el cuerpo principal */
+.pagina-medico-inicio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  background-color: #f8fdf9; /* Verde claro del fondo */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+/* Estilo para el título */
+.pagina-medico-inicio {
+  font-size: 2.5rem; /* Tamaño de la fuente */
+  font-weight: bold;
+  color: #004d40; /* Verde oscuro */
+  margin: 0;
+  padding: 20px;
+  border: 2px solid #81c784; /* Borde verde intermedio */
+  border-radius: 8px; /* Bordes redondeados */
+  background-color: #a5d6a7; /* Fondo verde claro del texto */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra ligera para el texto */
+   height: 100vh; 
+  width: 100vw;
+
+}
+
+.boton-siguiente-medico {
+  background-color: #4caf50; /* verde */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+   margin-top: 600px;
+}
+
+.boton-siguiente-medico:hover {
+  background-color: #388e3c; /* verde más oscuro al pasar el mouse */
+}
+html, body {
+  height: 100%;
+  overflow: hidden; /* 👈 evita el scroll */
+  margin: 0;        /* quita márgenes por defecto */
+  padding: 0;
+}

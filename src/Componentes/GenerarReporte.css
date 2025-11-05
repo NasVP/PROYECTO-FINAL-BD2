@@ -1,0 +1,110 @@
+.contenedor-reporte {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: oklab(48.977% -0.08774 0.05357);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-reporte {
+  background-color: lch(63.38% 88.39 136.53);
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-reporte h3 {
+  color: #024b30;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.campo {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.campo label {
+  font-weight: bold;
+  width: 150px;
+  color: black; /* ✅ Ahora el texto es negro */
+}
+
+
+.campo input,
+.campo select {
+  flex: 1;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #b9ffb9;
+}
+
+.btn-generar {
+  background-color: #00a000;
+  color: black;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-generar:hover {
+  background-color: #2e7d32;
+  color: white;
+}
+
+.tabla-datos {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-datos th,
+.tabla-datos td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabla-datos th {
+  background-color: #024b30;
+  color: white;
+}
+
+.acciones {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.acciones button {
+  background-color: #1565c0;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.acciones button:hover {
+  background-color: #0d47a1;
+}
+
+.boton-volver {
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.boton-volver:hover {
+  background-color: #555;
+}

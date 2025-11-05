@@ -1,0 +1,130 @@
+/* === Encabezado principal === */
+.inicio-header {
+  position: fixed;
+  top: 25px;
+  left: 0;
+  width: 100%;
+  color: rgb(34, 139, 34);
+  background: none;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+  font-family: fantasy;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+/* === Contenedor principal === */
+.inicio-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-image: url("../Imagenes/fondoPrincipal.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* === Tarjeta de inicio de sesión === */
+.inicio-card {
+  background: rgb(34, 139, 34);
+  margin-right: 60px;
+  margin-bottom: 40px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.inicio-titulo {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/* === Campos de entrada === */
+.inicio-input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #888888;
+}
+
+.inicio-input:focus {
+  outline: none;
+  border: 1px solid rgb(34, 139, 34);
+}
+
+/* === Botón principal (Ingresar) === */
+.inicio-boton {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(34, 139, 34);
+  color: white;
+  border: none;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.inicio-boton:hover {
+  background-color: #1256a0;
+}
+
+/* === Contenedor inferior de botones === */
+.botones-inferiores {
+  position: fixed;
+  bottom: 60px;
+  left: 20px;
+  display: flex;
+  gap: 10px; /* Espacio entre botones */
+}
+
+/* === Botón "Quiénes Somos" === */
+.inicio-boton-quienes-somos {
+  background-color: rgb(34, 139, 34);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.inicio-boton-quienes-somos:hover {
+  background-color: #2e7d32;
+  transform: scale(1.05);
+}
+
+/* === Botón "Evalúanos" === */
+.inicio-boton-evaluanos {
+  background-color: #388e3c; /* Verde diferente para distinguirlo */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.inicio-boton-evaluanos:hover {
+  background-color: #43a047;
+  transform: scale(1.05);
+}
